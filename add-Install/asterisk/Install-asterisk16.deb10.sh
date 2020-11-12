@@ -56,7 +56,7 @@ host = dbserver.domain.com
 port = 1433 
 tds version = 7.2 
 EOF
-cat "" >> /etc/freetds/freetds.conf
+cat "##" >> /etc/freetds/freetds.conf
 cat /tmp/temp.txt >> /etc/freetds/freetds.conf
 
 #Add universe repository and install subversio
