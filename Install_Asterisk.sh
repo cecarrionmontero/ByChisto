@@ -63,7 +63,7 @@ cat "" >> /etc/freetds/freetds.conf
 cat /tmp/temp.txt >> /etc/freetds/freetds.conf
 
 #Add universe repository and install subversio
-sudo add-apt-repository universe
+#sudo add-apt-repository universe
 sudo apt update && sudo apt -y install subversion
 
 #Download Asterisk 16 LTS tarball
